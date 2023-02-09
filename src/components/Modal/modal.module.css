@@ -1,0 +1,23 @@
+.myModal{
+    position: fixed;
+    z-index: 12;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.8);
+    /* opacity: 0.8; */
+}
+
+.msgWindow{
+    opacity: 1;
+    background-color: white;
+    width: 40rem;
+    height: 20rem;
+}
+
+.msgWindow .header{
+    background-color: red;
+    font-size: 2.5rem;
+}

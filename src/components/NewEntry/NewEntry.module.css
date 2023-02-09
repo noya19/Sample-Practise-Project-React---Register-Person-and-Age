@@ -1,0 +1,38 @@
+form{
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 12px;
+    width: 40rem;
+}
+
+.new-Entry{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.new-Entry__input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.new-Entry__input label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.2rem;
+
+}
+.new-Entry__input input{
+    width: 100%;
+    margin-bottom: 0.3rem;
+    padding: 0px;
+}
+
+.new-Entry__action{
+    margin: 0.2rem 0;
+    text-align: left;
+}

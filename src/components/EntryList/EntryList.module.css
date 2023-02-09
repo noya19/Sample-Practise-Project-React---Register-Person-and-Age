@@ -1,0 +1,9 @@
+.renderedList{
+    background-color: white;
+    border-radius: 12px;
+    width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
